@@ -1,13 +1,13 @@
 name: run
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  # push:
+  #   branches: [main]
+  # pull_request:
+  #   branches: [main]
   workflow_dispatch:
-  schedule:
-    - cron: "0 4 * * *" # đúng 4 giờ sáng mỗi ngày.
+  # schedule:
+  #   - cron: "0 4 * * *" # đúng 4 giờ sáng mỗi ngày.
 
 jobs:
   run:
